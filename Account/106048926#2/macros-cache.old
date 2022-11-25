@@ -1,0 +1,71 @@
+VER 3 0000000000000005 "/cast [@pet,dead" "134400"
+/cast [@pet,dead][mod:shift] Revive Pet
+/cast [nopet,nomod] Call Pet 1
+/clearfocus [@focus,dead]
+/focus [@focus,exists]player;target
+/clearfocus [@focus,noharm]
+/petattack [@focus,exists]
+/petfollow [@focus,noexists]
+/cast Hunter's Mark
+END
+VER 3 0000000000000009 "/cast [@player] " "132177"
+/cast [@player] volley
+END
+VER 3 000000000000000A "/cleartarget [no" "132309"
+/cleartarget [noharm][dead][mod]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/targetexact Stormfused Strikesmith
+/stopmacro [@target,nodead]
+/targetenemy 0 
+END
+VER 3 0000000000000006 "/target Revenant" "134400"
+/target [nodead]  Water Elemental
+END
+VER 3 0000000000000004 "0" "134400"
+/follow bomi
+END
+VER 3 0000000000000001 "1" "134400"
+/follow omifollowMe
+/follow hunterleft
+/follow dbzwhitehair
+/follow omia
+/follow Itorogyda
+END
+VER 3 0000000000000003 "2" "236203"
+/cast [@focus,noexists] Revive Pet
+/cast [nopet,nomod] Call Pet 1
+/clearfocus [@focus,dead]
+/focus [@focus,exists]player;target
+/clearfocus [@focus,noharm]
+/petattack [@focus,exists]
+END
+VER 3 0000000000000002 "3" "1033497"
+/target murloc
+/target hexthralled
+END
+VER 3 0000000000000008 "Medium" "132150"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar  earth revenant
+/tar  stone elemental
+/targetenemy [noharm][noexists][mod:ctrl]
+END
+VER 3 0000000000000007 "Small" "132150"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar  stone elemental
+/tar  earth revenant
+END
+VER 3 000000000000000B "T2" "458976"
+/cleartarget [noharm][dead][mod]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Stormfused Strikesmith
+/stopmacro [@target,nodead]
+/targetenemy 0 
+END

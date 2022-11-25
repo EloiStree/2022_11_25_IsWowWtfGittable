@@ -1,0 +1,24 @@
+VER 3 0000000000000002 "/cast [@player] " "132150"
+/cast [@player] volley
+END
+VER 3 0000000000000005 "/cast [@player] " "132205"
+/cast [@player] volley
+END
+VER 3 0000000000000006 "/cleartarget [de" "134400"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar  earth revenant
+END
+VER 3 0000000000000004 "/follow bomi" "134400"
+/follow bomi
+END
+VER 3 0000000000000001 "/follow dontdieo" "1376040"
+/follow dontdieonme
+END
+VER 3 0000000000000003 "zzz" "132150"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar   stone elemental
+/tar  earth revenant
+/targetenemy [noharm][noexists][mod:ctrl]
+END

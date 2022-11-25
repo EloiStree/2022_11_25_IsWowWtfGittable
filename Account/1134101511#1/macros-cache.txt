@@ -1,0 +1,28 @@
+VER 3 0000000000000003 "-- Functional wr" "132293"
+-- Functional wrapper for mapping custom keybindings
+function map(mode, lhs, rhs, opts)
+    local options = { noremap = true }
+    if opts then
+        options = vim.tbl_extend("force", options, opts)
+    end
+    vim.api.nvim_set_keymap(mode, lhs, rhs, op
+END
+VER 3 0000000000000004 "/cast [@pet,dead" "134400"
+/cast [@pet,dead][mod:shift] Revive Pet
+/cast [nopet,nomod] Call Pet 1
+/clearfocus [@focus,dead]
+/focus [@focus,exists]player;target
+/clearfocus [@focus,noharm]
+/petattack [@focus,exists]
+/petfollow [@focus,noexists]
+/cast Hunter's Mark
+END
+VER 3 0000000000000002 "/cast [@player]" "132150"
+/cast [@player] volley
+END
+VER 3 0000000000000005 "/target Revenant" "134400"
+/target [nodead]  Water Elemental
+END
+VER 3 0000000000000001 "dd" "134400"
+/follow bomi
+END

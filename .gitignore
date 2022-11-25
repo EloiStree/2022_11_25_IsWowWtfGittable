@@ -1,0 +1,16 @@
+# Ignore everything
+*
+# ! Except
+!.gitignore
+
+!*macros-cache.txt
+!*macros-cache.old
+!*bindings-cache.wtf
+!*bindings-cache.old
+!*edit-mode-cache-account.txt
+!*edit-mode-cache-character.old
+!*edit-mode-cache-character.txt
+!*AddOns.txt
+!*config-cache.wtf
+
+!*/

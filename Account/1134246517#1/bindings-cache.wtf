@@ -1,0 +1,6 @@
+bind W STRAFELEFT
+bind A NONE
+bind Q TURNLEFT
+bind E NONE
+bind X STRAFERIGHT
+bind Z MOVEFORWARD

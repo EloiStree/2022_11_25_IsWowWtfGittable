@@ -1,0 +1,46 @@
+VER 3 000000000000000E "T0" "236188"
+/cleartarget [noharm][dead][mod]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/targetexact Stormfused Strikesmith
+/stopmacro [@target,nodead]
+/cleartarget [noharm][dead][mod]
+END
+VER 3 000000000000000D "T1" "236188"
+/cleartarget [noharm][dead][mod]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Stormfused Strikesmith
+/stopmacro [@target,nodead]
+/cleartarget [noharm][dead][mod]
+END
+VER 3 000000000000000D "T2" "236188"
+/cleartarget [noharm][dead][mod]
+/targetexact Stormfused Strikesmith
+/stopmacro [@target,nodead]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/cleartarget [noharm][dead][mod]
+
+END
+
+VER 3 000000000000000D "T3" "236188"
+/cleartarget [noharm][dead][mod]
+/targetexact Stromfused Munitions
+/stopmacro [@target,nodead]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/cleartarget [noharm][dead][mod]
+
+END
+VER 3 0100000000000001 "Test" "236188"
+test
+END

@@ -1,0 +1,87 @@
+VER 3 0000000000000002 "/cast [@player] " "132150"
+/cast [@player] volley
+z
+END
+VER 3 000000000000000C "/cleartarget [de" "134400"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar  earth revenant
+END
+VER 3 000000000000000B "/cleartarget [de" "134400"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar  earth revenant
+END
+VER 3 0000000000000005 "/follow dontdieo" "134400"
+/follow dontdieonme
+END
+VER 3 0000000000000001 "/follow dontdieo" "134400"
+/follow dontdieonme
+END
+VER 3 000000000000000A "boris plus" "134400"
+/tar lindel the snatcher
+END
+VER 3 000000000000000E "dd" "132309"
+/cleartarget [noharm][dead][mod]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/targetexact Stormfuse Strikesmith
+/stopmacro [@target,nodead]
+/targetenemy
+END
+VER 3 0000000000000008 "Mdieum" "132150"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  lava elemental
+/tar  fire revenant
+/targetenemy [noharm][noexists][mod:ctrl]
+END
+VER 3 0000000000000006 "Medium" "132150"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar   stone elemental
+/tar  earth revenant
+/targetenemy [noharm][noexists][mod:ctrl]
+END
+VER 3 0000000000000003 "pet focus" "134400"
+/cast [@pet,dead][mod:shift] Revive Pet
+/cast [nopet,nomod] Call Pet 1
+/clearfocus [@focus,dead]
+/focus [@focus,exists]player;target
+/clearfocus [@focus,noharm]
+/petattack [@focus,exists]
+/petfollow [@focus,noexists]
+/cast Hunter's Mark
+END
+VER 3 0000000000000009 "silent boris" "134400"
+/tar silent boris
+END
+VER 3 0000000000000007 "Small" "134400"
+uii
+/targetenemy [noharm][noexists][mod:ctrl]
+END
+VER 3 000000000000000D "T0" "132628"
+/cleartarget [noharm][dead][mod]
+/target Cannoneer
+/stopmacro [exists]
+/target turncoat
+/stopmacro [exists]
+/targetenemy 1
+END
+VER 3 0000000000000010 "T3" "457329"
+/targetenemy 
+END
+VER 3 0000000000000004 "target" "236179"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar   Water Elemental
+/tar   Lava Fury
+/tar   Fire Revenant
+/tar   earth elemental
+/tar  stone elemental
+/tar  earth revenant
+/targetene
+END
+VER 3 000000000000000F "Test" "4064728"
+/run local a=0;TargetNearestEnemy();while (UnitAffectingCombat("target")~=true and a < 10) do TargetNearestEnemy();a=a+1;end
+END

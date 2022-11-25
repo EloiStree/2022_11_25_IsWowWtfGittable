@@ -1,0 +1,52 @@
+VER 3 0000000000000004 "/cast [@pet,dead" "134400"
+/cast [@pet,dead][mod:shift] Revive Pet
+/cast [nopet,nomod] Call Pet 1
+/clearfocus [@focus,dead]
+/focus [@focus,exists]player;target
+/clearfocus [@focus,noharm]
+/petattack [@focus,exists]
+/petfollow [@focus,noexists]
+/cast Hunter's Mark
+END
+VER 3 0000000000000002 "/cast [@player] " "134400"
+/cast [@player] volley
+END
+VER 3 0000000000000006 "/cleartarget [de" "134400"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth elemental
+/tar  earth revenant
+END
+VER 3 0000000000000007 "/cleartarget [de" "134400"
+/cleartarget [dead][noharm][mod:ctrl]
+/tar  earth revenant
+/tar  earth elemental
+END
+VER 3 0000000000000001 "/follow dontdieo" "134400"
+/follow bomi
+END
+VER 3 0000000000000003 "/follow paomi" "134400"
+/follow Paomi
+END
+VER 3 0000000000000005 "/target Revenant" "134400"
+/target [nodead]  Water Elemental
+END
+VER 3 0000000000000008 "/targetexact Shi" "132309"
+/cleartarget [noharm][dead][mod]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/targetexact Stormfused Strikesmith
+/stopmacro [@target,nodead]
+/targetenemy 0 
+END
+VER 3 0000000000000009 "T2" "458976"
+/cleartarget [noharm][dead][mod]
+/targetexact Brinebrawn Cannoneer
+/stopmacro [@target,nodead]
+/targetexact Shipwright Turncoat
+/stopmacro [@target,nodead]
+/targetexact Stormfused Strikesmith
+/stopmacro [@target,nodead]
+/targetenemy 0 
+END

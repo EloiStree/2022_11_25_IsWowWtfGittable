@@ -1,0 +1,9 @@
+VER 3 0000000000000003 "/cast [@player] " "135934"
+/cast [@player] Holy Word: Sanctify
+END
+VER 3 0000000000000001 "/follow dontdieo" "134400"
+/follow bomi
+END
+VER 3 0000000000000002 "/target Revenant" "134400"
+/target Revenant
+END
